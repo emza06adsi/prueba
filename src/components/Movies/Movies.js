@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
 import Schedule from "../Schedule/Schedule";
 import Slider from "../Slider/Slider";

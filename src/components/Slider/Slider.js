@@ -1,6 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
-import styles from "./Slider.module.styl";
 import styled, { css } from "styled-components";
 
 const SliderContainer = styled.div`
@@ -66,7 +64,7 @@ const Slider = (props) => (
   >
     {props.movies.map(({ name, url, year, category }) => (
       <ImageContainer screenSizes={props.screenSizes}>
-        <img src={url.url} width={"80px"} height={"100px"} />
+        <img src={url.url} width={"80px"} height={"100px"} alt=""/>
         <div>
           <DescriptionContainer>
             <p>{category},</p>

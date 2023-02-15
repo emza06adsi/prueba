@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import PlayerList from "./components/PlayerList/PlayerList";
 import Movies from "./components/Movies/Movies";
@@ -288,7 +287,6 @@ const data = {
 };
 
 function App(props) {
-  const [moviesPosition, setMoviesPosition] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
 
   const openModal = () => {

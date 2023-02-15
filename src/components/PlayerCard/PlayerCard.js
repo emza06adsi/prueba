@@ -1,7 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
-import styles from "./PlayerCard.module.styl";
-import withScreenSizes from "../WithScreenSizes/WithScreenSizes";
 import styled, { css } from "styled-components";
 
 const Div = styled.div`

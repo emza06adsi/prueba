@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Video from "../Video/Video";
 import PlayerCard from "../PlayerCard/PlayerCard";
 import styled, { css } from "styled-components";
